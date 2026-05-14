@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fatura Expert | Soluções de Telecom para Transportadoras</title>
+  <meta name="description" content="Redução de custos, gestão de chips, MDM, ramais e muito mais para transportadoras. A Fatura Expert é sua parceira de telecom." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Fatura<strong>Expert</strong></span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#historia">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#como-contratar">Como Contratar</a></li>
+        <li><a href="#contato" class="nav__cta">Falar com Especialista</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__orb hero__orb--1"></div>
+    <div class="hero__orb hero__orb--2"></div>
+    <div class="hero__particles" id="particles"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge" id="heroBadge">
+          <span class="badge-dot"></span>
+          Especialistas em Telecom para Transporte
+        </div>
+        <h1 class="hero__title" id="heroTitle">
+          Sua frota conectada.<br />
+          <span class="hero__title--highlight">Seus custos reduzidos.</span>
+        </h1>
+        <p class="hero__subtitle" id="heroSubtitle">
+          A Fatura Expert transforma a gestão de telecom da sua transportadora. Menos gasto, mais controle, zero dor de cabeça.
+        </p>
+        <div class="hero__actions" id="heroActions">
+          <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Falar no WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn--ghost btn--lg">
+            Ver Soluções
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="hero__stats" id="heroStats">
+          <div class="stat">
+            <span class="stat__number" data-target="40">0</span><span class="stat__suffix">%</span>
+            <span class="stat__label">Redução média de custos</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__number" data-target="500">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label">Empresas atendidas</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__number" data-target="99">0</span><span class="stat__suffix">%</span>
+            <span class="stat__label">Satisfação dos clientes</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual" id="heroVisual">
+        <div class="hero__phone-mockup">
+          <div class="mockup-screen">
+            <div class="mockup-header">
+              <span class="mockup-dot red"></span>
+              <span class="mockup-dot yellow"></span>
+              <span class="mockup-dot green"></span>
+              <span class="mockup-title">Painel Fatura Expert</span>
+            </div>
+            <div class="mockup-content">
+              <div class="mockup-card">
+                <div class="mockup-card__icon">📊</div>
+                <div>
+                  <div class="mockup-card__label">Economia este mês</div>
+                  <div class="mockup-card__value green-text">R$ 4.820,00</div>
+                </div>
+              </div>
+              <div class="mockup-card">
+                <div class="mockup-card__icon">📱</div>
+                <div>
+                  <div class="mockup-card__label">Chips ativos</div>
+                  <div class="mockup-card__value">148 dispositivos</div>
+                </div>
+              </div>
+              <div class="mockup-card">
+                <div class="mockup-card__icon">🔒</div>
+                <div>
+                  <div class="mockup-card__label">MDM Status</div>
+                  <div class="mockup-card__value green-text">Todos protegidos</div>
+                </div>
+              </div>
+              <div class="mockup-bar-wrap">
+                <div class="mockup-bar-label">Uso de dados</div>
+                <div class="mockup-bar"><div class="mockup-bar__fill" style="width:72%"></div></div>
+              </div>
+              <div class="mockup-bar-wrap">
+                <div class="mockup-bar-label">Linhas ativas</div>
+                <div class="mockup-bar"><div class="mockup-bar__fill accent" style="width:91%"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="mockup-float mockup-float--1">
+            <span>💰</span> Fatura reduzida!
+          </div>
+          <div class="mockup-float mockup-float--2">
+            <span>✅</span> 148 chips OK
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-indicator">
+      <span>Role para descobrir</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <p class="trust-bar__label">Confiado por transportadoras em todo o Brasil</p>
+      <div class="trust-bar__logos">
+        <div class="trust-logo">Vivo</div>
+        <div class="trust-logo">Claro</div>
+        <div class="trust-logo">TIM</div>
+        <div class="trust-logo">Oi</div>
+        <div class="trust-logo">MDM Suite</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTÓRIA -->
+  <section class="historia" id="historia">
+    <div class="container">
+      <div class="historia__inner">
+        <div class="historia__visual">
+          <div class="historia__img-wrap">
+            <div class="historia__timeline">
+              <div class="timeline-item" data-year="2015">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong>2015</strong>
+                  <p>Fundação da Fatura Expert com foco em auditoria de faturas</p>
+                </div>
+              </div>
+              <div class="timeline-item" data-year="2018">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong>2018</strong>
+                  <p>Expansão para gestão completa de telecom corporativo</p>
+                </div>
+              </div>
+              <div class="timeline-item" data-year="2021">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong>2021</strong>
+                  <p>Especialização em transportadoras e logística</p>
+                </div>
+              </div>
+              <div class="timeline-item" data-year="2024">
+                <div class="timeline-dot active"></div>
+                <div class="timeline-content">
+                  <strong>2024</strong>
+                  <p>500+ clientes, presente em todo o Brasil</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="historia__text">
+          <div class="section-tag">Nossa História</div>
+          <h2 class="section-title">De auditores a<br /><span class="highlight">parceiros estratégicos</span></h2>
+          <p class="historia__desc">
+            Nascemos para resolver um problema real: transportadoras pagando fortunas em telecom sem saber o porquê. Em quase uma década, evoluímos de uma empresa de auditoria para um parceiro completo de gestão de telecomunicações.
+          </p>
+          <p class="historia__desc">
+            Hoje, somos referência nacional no setor de transporte. Conhecemos a fundo os desafios de quem precisa manter frotas conectadas, motoristas alcançáveis e operações rodando 24/7 — com o menor custo possível.
+          </p>
+          <div class="historia__nums">
+            <div class="historia__num">
+              <span class="num-big" data-target="10">0</span><span>anos</span>
+              <p>de experiência</p>
+            </div>
+            <div class="historia__num">
+              <span class="num-big" data-target="500">0</span><span>+</span>
+              <p>clientes ativos</p>
+            </div>
+            <div class="historia__num">
+              <span class="num-big">R$</span>
+              <span class="num-big">30M</span>
+              <p>em faturas gerenciadas</p>
+            </div>
+          </div>
+          <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="btn btn--primary">
+            Conhecer nossa equipe
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="servicos" id="servicos">
+    <div class="servicos__bg"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">O que fazemos</div>
+        <h2 class="section-title">Soluções que <span class="highlight">transformam</span><br />sua operação</h2>
+        <p class="section-subtitle">Cada transportadora tem necessidades únicas. Nossas soluções se adaptam ao seu tamanho e desafio.</p>
+      </div>
+
+      <div class="servicos__grid">
+        <div class="servico-card" data-index="0">
+          <div class="servico-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Auditoria de Faturas</h3>
+          <p>Identificamos cobranças indevidas, contratos desatualizados e desperdícios na sua fatura de telecom. Resultado imediato no bolso.</p>
+          <div class="servico-card__tag">Mais popular</div>
+        </div>
+
+        <div class="servico-card" data-index="1">
+          <div class="servico-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+          </div>
+          <h3>Gestão de Chips</h3>
+          <p>Controle total sobre cada SIM card da frota. Ativação, bloqueio, monitoramento de consumo e relatórios em tempo real.</p>
+        </div>
+
+        <div class="servico-card" data-index="2">
+          <div class="servico-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>MDM Corporativo</h3>
+          <p>Gerenciamento de dispositivos móveis de ponta a ponta. Segurança, políticas de uso e controle da frota de smartphones.</p>
+        </div>
+
+        <div class="servico-card" data-index="3">
+          <div class="servico-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.1 2.18 2 2 0 012.08 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <h3>Ramais Virtuais</h3>
+          <p>PABX em nuvem para toda a sua equipe. Ramais fixos, móveis e gravação de chamadas — sem precisar de infraestrutura física.</p>
+        </div>
+
+        <div class="servico-card" data-index="4">
+          <div class="servico-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+          </div>
+          <h3>eSIM & Conectividade</h3>
+          <p>Ativação de eSIM para dispositivos modernos da frota. Sem cartão físico, sem burocracia — conectividade instantânea.</p>
+        </div>
+
+        <div class="servico-card" data-index="5">
+          <div class="servico-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Contratação de Linhas</h3>
+          <p>Negociamos os melhores planos com as principais operadoras do Brasil. Você ganha poder de barganha sem precisar negociar sozinho.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO CONTRATAR -->
+  <section class="como-contratar" id="como-contratar">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Processo Simples</div>
+        <h2 class="section-title">Do contato ao resultado<br /><span class="highlight">em 4 passos</span></h2>
+        <p class="section-subtitle">Sem burocracia, sem contratos complexos. Começamos a trabalhar pela sua economia de forma rápida.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step" data-step="1">
+          <div class="step__number">01</div>
+          <div class="step__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.1 2.18 2 2 0 012.08 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <h3>Diagnóstico Gratuito</h3>
+          <p>Entre em contato via WhatsApp. Fazemos um diagnóstico completo e sem custo da sua situação atual de telecom.</p>
+        </div>
+
+        <div class="step__connector"></div>
+
+        <div class="step" data-step="2">
+          <div class="step__number">02</div>
+          <div class="step__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>
+          </div>
+          <h3>Proposta Personalizada</h3>
+          <p>Montamos uma proposta com as soluções ideais para o tamanho e necessidade da sua transportadora.</p>
+        </div>
+
+        <div class="step__connector"></div>
+
+        <div class="step" data-step="3">
+          <div class="step__number">03</div>
+          <div class="step__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="20,6 9,17 4,12"/></svg>
+          </div>
+          <h3>Implantação Rápida</h3>
+          <p>Nossa equipe técnica cuida de tudo. Migração, ativações, configurações — sem interromper sua operação.</p>
+        </div>
+
+        <div class="step__connector"></div>
+
+        <div class="step" data-step="4">
+          <div class="step__number">04</div>
+          <div class="step__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          </div>
+          <h3>Economia Garantida</h3>
+          <p>Acompanhe em tempo real a redução de custos. Relatórios mensais com o impacto real no seu orçamento.</p>
+        </div>
+      </div>
+
+      <div class="como-contratar__cta">
+        <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Quero meu diagnóstico gratuito
+        </a>
+        <p class="como-contratar__disclaimer">Sem compromisso • Resposta em até 2 horas</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="produtos" id="produtos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Portfólio Completo</div>
+        <h2 class="section-title">Tudo que sua<br /><span class="highlight">transportadora precisa</span></h2>
+        <p class="section-subtitle">Uma solução para cada desafio da sua operação de telecom e conectividade.</p>
+      </div>
+
+      <div class="produtos__grid">
+        <div class="produto-card featured" data-index="0">
+          <div class="produto-card__badge">Destaque</div>
+          <div class="produto-card__header">
+            <div class="produto-icon">💰</div>
+            <h3>Redução de Custos</h3>
+          </div>
+          <p>Auditoria profunda das suas faturas atuais. Identificamos erros, planos inadequados e contratos vencidos. Garantimos redução mínima de 20% ou não cobramos.</p>
+          <ul class="produto-list">
+            <li>✓ Auditoria completa sem custo inicial</li>
+            <li>✓ Negociação direta com operadoras</li>
+            <li>✓ Relatório detalhado de economia</li>
+            <li>✓ Gestão contínua de contratos</li>
+          </ul>
+          <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="btn btn--primary">Saber mais</a>
+        </div>
+
+        <div class="produto-card" data-index="1">
+          <div class="produto-card__header">
+            <div class="produto-icon">🛡️</div>
+            <h3>MDM Corporativo</h3>
+          </div>
+          <p>Gerencie todos os dispositivos móveis da sua frota de um único lugar. Segurança, rastreamento e controle total.</p>
+          <ul class="produto-list">
+            <li>✓ Políticas de segurança remotas</li>
+            <li>✓ Rastreamento de dispositivos</li>
+            <li>✓ Bloqueio e limpeza remota</li>
+          </ul>
+          <a href="#contato" class="btn btn--outline">Solicitar proposta</a>
+        </div>
+
+        <div class="produto-card" data-index="2">
+          <div class="produto-card__header">
+            <div class="produto-icon">☎️</div>
+            <h3>Ramais Virtuais</h3>
+          </div>
+          <p>PABX em nuvem com ramais para todos os colaboradores, discagem interna gratuita e integração com CRM.</p>
+          <ul class="produto-list">
+            <li>✓ Ramais fixos e móveis</li>
+            <li>✓ Gravação de chamadas</li>
+            <li>✓ URA personalizada</li>
+          </ul>
+          <a href="#contato" class="btn btn--outline">Solicitar proposta</a>
+        </div>
+
+        <div class="produto-card" data-index="3">
+          <div class="produto-card__header">
+            <div class="produto-icon">📡</div>
+            <h3>Contratação de Linhas</h3>
+          </div>
+          <p>Negociamos com Vivo, Claro, TIM e Oi para garantir os melhores planos ao menor custo para a sua frota.</p>
+          <ul class="produto-list">
+            <li>✓ Comparativo entre operadoras</li>
+            <li>✓ Planos corporativos exclusivos</li>
+            <li>✓ Portabilidade sem burocracia</li>
+          </ul>
+          <a href="#contato" class="btn btn--outline">Solicitar proposta</a>
+        </div>
+
+        <div class="produto-card" data-index="4">
+          <div class="produto-card__header">
+            <div class="produto-icon">💳</div>
+            <h3>Gestão de Chips</h3>
+          </div>
+          <p>Dashboard completo para controle de todos os SIM cards da frota. Ativação, suspensão e relatórios de consumo.</p>
+          <ul class="produto-list">
+            <li>✓ Painel de controle em tempo real</li>
+            <li>✓ Alertas de consumo</li>
+            <li>✓ Relatórios automáticos</li>
+          </ul>
+          <a href="#contato" class="btn btn--outline">Solicitar proposta</a>
+        </div>
+
+        <div class="produto-card" data-index="5">
+          <div class="produto-card__header">
+            <div class="produto-icon">🌐</div>
+            <h3>Ativação de eSIM</h3>
+          </div>
+          <p>Ative eSIMs em segundos para dispositivos compatíveis. Sem troca de chip físico, sem deslocamento da equipe.</p>
+          <ul class="produto-list">
+            <li>✓ Ativação 100% remota</li>
+            <li>✓ Compatível com todos os aparelhos</li>
+            <li>✓ Múltiplos perfis por dispositivo</li>
+          </ul>
+          <a href="#contato" class="btn btn--outline">Solicitar proposta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="depoimentos">
+    <div class="depoimentos__bg"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Depoimentos</div>
+        <h2 class="section-title">O que nossos <span class="highlight">clientes dizem</span></h2>
+      </div>
+      <div class="depoimentos__grid">
+        <div class="depoimento-card">
+          <div class="depoimento-stars">★★★★★</div>
+          <p>"Reduzimos 38% da nossa fatura de telecom no primeiro mês. A equipe da Fatura Expert encontrou cobranças que nunca percebemos em anos de contrato."</p>
+          <div class="depoimento-author">
+            <div class="depoimento-avatar">CM</div>
+            <div>
+              <strong>Carlos Mendes</strong>
+              <span>Diretor Operacional – Transportes Mendes</span>
+            </div>
+          </div>
+        </div>
+        <div class="depoimento-card">
+          <div class="depoimento-stars">★★★★★</div>
+          <p>"O MDM transformou nossa gestão de frota. Agora sei exatamente onde está cada dispositivo e posso bloquear qualquer aparelho remotamente."</p>
+          <div class="depoimento-author">
+            <div class="depoimento-avatar">AL</div>
+            <div>
+              <strong>Ana Lima</strong>
+              <span>Gerente de TI – Logística Sul</span>
+            </div>
+          </div>
+        </div>
+        <div class="depoimento-card">
+          <div class="depoimento-stars">★★★★★</div>
+          <p>"Os ramais virtuais mudaram nossa comunicação interna. Antes gastávamos muito com ligações entre filiais, agora é tudo gratuito internamente."</p>
+          <div class="depoimento-author">
+            <div class="depoimento-avatar">RS</div>
+            <div>
+              <strong>Roberto Santos</strong>
+              <span>CEO – Transportadora RST</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-banner__orb"></div>
+    <div class="container">
+      <div class="cta-banner__inner">
+        <div class="cta-banner__text">
+          <h2>Sua transportadora está<br /><span>pagando mais do que deveria.</span></h2>
+          <p>Em média, descobrimos R$ 2.400/mês em cobranças indevidas por empresa. Quanto você está perdendo?</p>
+        </div>
+        <div class="cta-banner__action">
+          <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="btn btn--white btn--lg">
+            Descobrir agora — É grátis
+          </a>
+          <p>Sem compromisso. Diagnóstico 100% gratuito.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULÁRIO -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="contato__inner">
+        <div class="contato__info">
+          <div class="section-tag">Vamos conversar</div>
+          <h2 class="section-title">Pronto para reduzir<br /><span class="highlight">seus custos?</span></h2>
+          <p>Preencha o formulário e nossa equipe entrará em contato em até 2 horas com um diagnóstico personalizado para a sua transportadora.</p>
+
+          <div class="contato__beneficios">
+            <div class="beneficio">
+              <span class="beneficio__icon">⚡</span>
+              <div>
+                <strong>Resposta em 2 horas</strong>
+                <p>Nossa equipe é ágil e você não vai esperar</p>
+              </div>
+            </div>
+            <div class="beneficio">
+              <span class="beneficio__icon">🎯</span>
+              <div>
+                <strong>Diagnóstico personalizado</strong>
+                <p>Análise feita especificamente para o seu negócio</p>
+              </div>
+            </div>
+            <div class="beneficio">
+              <span class="beneficio__icon">💸</span>
+              <div>
+                <strong>Redução garantida</strong>
+                <p>Mínimo 20% de redução ou não cobramos nada</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contato__whatsapp">
+            <p>Prefere pelo WhatsApp?</p>
+            <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="whatsapp-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              (27) 4042-2220
+            </a>
+          </div>
+        </div>
+
+        <div class="contato__form-wrap">
+          <form class="contato__form" id="contatoForm" novalidate>
+            <div class="form-group">
+              <label for="nome">Nome completo *</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="empresa">Nome da transportadora *</label>
+              <input type="text" id="empresa" name="empresa" placeholder="Razão social ou nome fantasia" required />
+              <span class="form-error"></span>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefone">WhatsApp / Telefone *</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required />
+                <span class="form-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="frota">Tamanho da frota</label>
+                <select id="frota" name="frota">
+                  <option value="">Selecione</option>
+                  <option value="1-10">1 a 10 veículos</option>
+                  <option value="11-50">11 a 50 veículos</option>
+                  <option value="51-200">51 a 200 veículos</option>
+                  <option value="200+">Mais de 200</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="servico">Qual solução te interessa? *</label>
+              <select id="servico" name="servico" required>
+                <option value="">Selecione uma solução</option>
+                <option value="reducao">Redução de Custos</option>
+                <option value="mdm">MDM Corporativo</option>
+                <option value="ramais">Ramais Virtuais</option>
+                <option value="linhas">Contratação de Linhas</option>
+                <option value="chips">Gestão de Chips</option>
+                <option value="esim">Ativação de eSIM</option>
+                <option value="tudo">Todas as soluções</option>
+              </select>
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Conte seu desafio atual</label>
+              <textarea id="mensagem" name="mensagem" rows="3" placeholder="Ex: Estou pagando muito caro em telecom e quero entender como reduzir..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full btn--lg" id="submitBtn">
+              <span class="btn-text">Quero meu diagnóstico gratuito</span>
+              <span class="btn-loading" style="display:none">Enviando...</span>
+            </button>
+            <p class="form-disclaimer">🔒 Seus dados estão seguros. Não fazemos spam.</p>
+          </form>
+          <div class="form-success" id="formSuccess" style="display:none">
+            <div class="success-icon">✅</div>
+            <h3>Mensagem enviada!</h3>
+            <p>Nossa equipe entrará em contato em até 2 horas pelo WhatsApp ou telefone informado.</p>
+            <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="btn btn--primary">
+              Falar agora no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Fatura<strong>Expert</strong></span>
+          </a>
+          <p>Especialistas em gestão de telecom para transportadoras. Reduzindo custos e aumentando a eficiência da sua operação.</p>
+          <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="footer__whatsapp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            (27) 4042-2220
+          </a>
+        </div>
+        <div class="footer__links">
+          <h4>Soluções</h4>
+          <ul>
+            <li><a href="#servicos">Redução de Custos</a></li>
+            <li><a href="#servicos">Gestão de Chips</a></li>
+            <li><a href="#servicos">MDM Corporativo</a></li>
+            <li><a href="#servicos">Ramais Virtuais</a></li>
+            <li><a href="#servicos">Ativação de eSIM</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#historia">Nossa História</a></li>
+            <li><a href="#como-contratar">Como Contratar</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4>Fale conosco</h4>
+          <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="footer__cta-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Iniciar conversa
+          </a>
+          <p class="footer__hours">Seg–Sex, 8h–18h<br />Sáb, 8h–12h</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2024 Fatura Expert. Todos os direitos reservados.</p>
+        <p>Especialistas em telecom para transportadoras</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/552740422220" target="_blank" rel="noopener" class="whatsapp-float" id="whatsappFloat" aria-label="Falar no WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__tooltip">Falar agora</span>
+    <span class="whatsapp-float__pulse"></span>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
